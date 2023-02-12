@@ -22,6 +22,7 @@ Run test suite
 
 ```
 go test -run {test_name_suite}
+go test -run Test_alpha
 ```
 
 Run test with coverage info

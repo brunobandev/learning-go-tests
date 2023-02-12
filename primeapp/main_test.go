@@ -9,7 +9,7 @@ import (
 	"testing"
 )
 
-func Test_isPrime(t *testing.T) {
+func Test_alpha_isPrime(t *testing.T) {
 	// table test.
 	primeTests := []struct {
 		name     string
@@ -40,7 +40,7 @@ func Test_isPrime(t *testing.T) {
 	}
 }
 
-func Test_prompt(t *testing.T) {
+func Test_alpha_prompt(t *testing.T) {
 	// save a copy of os.Stdout
 	oldOut := os.Stdout
 
